@@ -1,7 +1,9 @@
-# RaSig
+#RaSig
+
 To install all files required by the hands-on, use ansible.
 
-  1- Paste your Raspberry Pi's IP into the hosts file
-  2- Run the following command :
+    Paste your Raspberry PI's IP into the host file
+    Run the following command :
 
-ansible-playbook -i hosts piSigfox.yml
+ansible-playbook -i host RaSig.yml
+
